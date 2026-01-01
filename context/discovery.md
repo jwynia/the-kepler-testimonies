@@ -12,6 +12,7 @@ Core project information that rarely changes.
 - [Project Definition](foundation/project.md) - What this project is and why it exists
 - [The Premise](foundation/premise.md) - The winning story concept
 - [Workflow](foundation/workflow.md) - How AI+human collaboration works
+- [GitHub Workflow](foundation/github-workflow.md) - Technical GitHub process (branches, PRs, issues)
 
 ### Story Development
 All story-related planning and development.
