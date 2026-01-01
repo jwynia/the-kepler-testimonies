@@ -40,4 +40,5 @@ All participation happens via [GitHub Discussions](https://github.com/jwynia/the
 
 ## Relationship Network
 - **Related**: [Project Definition](project.md)
+- **Related**: [GitHub Workflow](github-workflow.md) - Technical GitHub mechanics
 - **Dependent**: [Community Participation](../community/index.md)

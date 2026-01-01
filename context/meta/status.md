@@ -17,6 +17,7 @@ Story concept expansion - see [Planning Index](../planning/index.md)
 ## Recent Activity
 
 ### 2026-01-01
+- GitHub workflow documented (branches, PRs, issues, gh CLI)
 - Context network initialized
 - Foundation documents created
 - Decision record for premise selection documented
