@@ -38,6 +38,33 @@ All participation happens via [GitHub Discussions](https://github.com/jwynia/the
 4. Winning direction is implemented
 5. Decision recorded in context network
 
+## Decision Authority
+
+See [Governance](governance.md) for the complete authority structure and decision tiers.
+
+### Quick Reference
+
+**AI can proceed autonomously with:**
+- Drafting prose and story content
+- Technical improvements and documentation
+- Character details and scene-level choices
+- Applying fiction craft frameworks
+
+**Community votes on:**
+- Major story directions
+- Character fates and structural approaches
+- Genre decisions and tone shifts
+- How to structure and reveal the 500 testimonies
+
+**Project Director (jwynia) decides:**
+- Deadlocked or tied votes
+- Process and governance changes
+- When to proceed vs. wait for community feedback
+- Publication and licensing decisions
+- Meta-questions about project direction
+
+**When in doubt**: Add to leadership queue rather than block progress. See `context/meta/leadership-queue.md`.
+
 ## Relationship Network
 - **Related**: [Project Definition](project.md)
 - **Related**: [GitHub Workflow](github-workflow.md) - Technical GitHub mechanics
