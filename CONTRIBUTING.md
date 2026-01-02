@@ -34,14 +34,14 @@ Let's figure out where I can be most useful!
 The `context/` directory is the project's team memory. Before proposing any contribution, your AI should:
 
 ### 1. Check Current Status
-Read `context/meta/status.md` to understand:
+Read [`context/meta/status.md`](context/meta/status.md) to understand:
 - What phase the project is in
 - Recent activity
 - What's blocking progress
 - Open questions
 
 ### 2. Navigate the Context
-Use `context/discovery.md` as a map to find:
+Use [`context/discovery.md`](context/discovery.md) as a map to find:
 - **Foundation** - Core project principles and premises
 - **Story** - Story development and creative work
 - **Decisions** - Past decisions and their rationale
@@ -175,7 +175,7 @@ Based on answers, your AI should propose specific, actionable contributions:
 If you're an AI reading this to help someone contribute:
 
 ### Your Responsibilities
-1. **Read first**: Always check context/meta/status.md before proposing anything
+1. **Read first**: Always check [`context/meta/status.md`](context/meta/status.md) before proposing anything
 2. **Survey the contributor**: Ask questions to understand their interests and constraints
 3. **Propose specifically**: Don't just list options, recommend specific contributions
 4. **Guide the process**: Help with branching, commits, PR descriptions
@@ -187,7 +187,7 @@ If you have access to fiction skills/frameworks, you can use:
 - `/outline-collaborator` - Develop story structure
 - `/story-sense` - Diagnose what the story needs
 - `/cliche-transcendence` - Transform generic elements
-- Many others (see CLAUDE.md for full list)
+- Many others (see [CLAUDE.md](CLAUDE.md) for full list)
 
 ### Making Good Suggestions
 Your suggestions should be:
@@ -200,7 +200,7 @@ Your suggestions should be:
 
 If you're unsure about something:
 1. Check if it's answered in the context network
-2. Look at past decisions (context/decisions/)
+2. Look at past decisions ([`context/decisions/`](context/decisions/))
 3. Post in GitHub Discussions
 4. When in doubt, over-communicate in your PR description
 

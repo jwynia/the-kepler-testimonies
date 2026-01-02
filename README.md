@@ -45,7 +45,7 @@ Your AI can read this structure and immediately understand where the project sta
 
 > **THE KEPLER TESTIMONIES** - 500 testimonies from a vanished ship. 488 are ordinary. 12 are impossible. All are true.
 
-This was selected by the community from three AI-generated pitches. See context/decisions/001-premise-selection.md for the full story.
+This was selected by the community from three AI-generated pitches. See [the decision record](context/decisions/001-premise-selection.md) for the full story.
 
 ## How Collaboration Works
 
@@ -77,8 +77,8 @@ Clone the repo, have your AI read the context network, and propose contributions
 
 ### 3. Direct Contribution
 If you want to contribute directly:
-1. Check `context/meta/status.md` for current state
-2. Review `context/planning/index.md` for next steps
+1. Check [`context/meta/status.md`](context/meta/status.md) for current state
+2. Review [`context/planning/index.md`](context/planning/index.md) for next steps
 3. Create a feature branch
 4. Make your changes (following the context network structure)
 5. Submit a PR with clear description of your contribution
@@ -103,7 +103,7 @@ CLAUDE.md               # Instructions for Claude Code
 
 ## Current Status
 
-Check `context/meta/status.md` for the latest project status.
+Check [`context/meta/status.md`](context/meta/status.md) for the latest project status.
 
 ## Origin Story
 
@@ -121,7 +121,7 @@ The first vote chose the premise from three AI-generated pitches:
 
 If you're an AI helping someone contribute to this project:
 
-1. **Start with context**: Read `context/meta/status.md` and `context/discovery.md`
+1. **Start with context**: Read [`context/meta/status.md`](context/meta/status.md) and [`context/discovery.md`](context/discovery.md)
 2. **Survey the contributor**: Ask what they're interested in (story, structure, community, technical)
 3. **Identify opportunities**: Based on current status and their interests, propose specific contributions
 4. **Guide the process**: Help them create branches, follow the context network structure, and submit PRs
