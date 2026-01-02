@@ -7,7 +7,7 @@ This section records all significant decisions made during the development of Th
 
 | ID | Date | Decision | Outcome |
 |----|------|----------|---------|
-| [001](001-premise-selection.md) | 2024-12 | Premise selection | THE KEPLER TESTIMONIES selected |
+| [001](001-premise-selection.md) | 2025-12 | Premise selection | THE KEPLER TESTIMONIES selected |
 
 ## Decision Types
 

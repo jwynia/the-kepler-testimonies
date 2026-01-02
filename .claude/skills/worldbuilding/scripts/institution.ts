@@ -301,7 +301,7 @@ function generateInstitution(
   ];
 
   // Add evolution steps based on how old the institution is
-  const ageSteps = Math.min(3, Math.floor((2024 - parseInt(era.replace(/[^0-9]/g, ""))) / 30));
+  const ageSteps = Math.min(3, Math.floor((2026 - parseInt(era.replace(/[^0-9]/g, ""))) / 30));
   if (ageSteps > 0) {
     const evolutionReasons = [
       "simplified after regional expansion",

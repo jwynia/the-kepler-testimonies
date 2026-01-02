@@ -41,7 +41,7 @@
 - Foundation documents created
 - Decision record for premise selection documented
 
-### December 2024
+### December 2025
 - Project created after Threads interest check
 - Community voted on premise
 - THE KEPLER TESTIMONIES selected

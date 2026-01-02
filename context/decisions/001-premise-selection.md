@@ -43,5 +43,5 @@ The community vote determined the outcome. Specific reasons cited in discussion 
 
 ## Metadata
 - **Type**: Community Vote
-- **Date**: December 2024
+- **Date**: December 2025
 - **Participants**: Threads community
