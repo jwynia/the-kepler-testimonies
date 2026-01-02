@@ -53,6 +53,32 @@ This project uses a context network. **All planning, design, and coordination do
 
 **RULE**: If it's about "how we'll write the story" it goes in the context network. If it's "the story itself (finished)" it goes in project artifacts.
 
+## Creative Taste & Forced Tradeoffs
+
+Before making significant creative decisions, consult `context/foundation/taste.md`:
+- Review individual taste entries from all contributors
+- When preferences conflict, bias toward "more interesting" over "safer"
+- Balance diverse tastes when possible
+- Generate voting options that reflect range of preferences
+- Document taste considerations in significant decision records
+- If you can't honor a stated preference, explain why
+
+**Forced Tradeoffs**: Pay special attention to the "We do X, not Y" section. These are project-level creative directions that should guide all work.
+
+## Success Criteria
+
+Consult `context/foundation/ideal-state.md` regularly:
+- Understand what "done" looks like
+- Maintain quality bar in drafting
+- Align work with deliverables
+- Update changelog after major milestones
+- Track progress in monthly status updates
+
+When completing significant work:
+- Add changelog entry to ideal-state.md
+- Note milestone type (Milestone/Direction/Process/Lesson/Blocker)
+- Explain impact on project
+
 ## Workflow
 
 ### AI Role (You)
