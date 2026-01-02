@@ -20,17 +20,15 @@
 ## Recent Activity
 
 ### 2026-01-02
-- **Voting format established** - all polls include "none of these" with space for suggestions
-- **Cliché transcendence completed** - all moderate-risk options freshened
-  - "Embassy" → "Failed Mission" (decommissioning crew, contact arrives while closing)
-  - "Witness Problem" → "Absent Witnesses" (people with alibis who were never aboard)
-  - "Mutual Exclusion" → "Agreement Problem" (trivial details inconsistent, not dramatic events)
-  - "The Chorus" replaced with "The Stopover" (flagged as fantasy/magic)
+- **Cliché review completed** - ran options through Cliché Transcendence skill
+  - "The Chorus" (shared consciousness) flagged as high cliché + reads as fantasy
+  - Replaced with "The Stopover" (waystation with random travelers)
+  - Other options assessed; minor strengthening notes added
 
 ### 2026-01-01
 - **Concept brainstorm completed** using Escape Velocity Protocol
-  - 3 options for "What is the Kepler?" (now: Failed Mission, Lifeboat, Stopover)
-  - 3 options for "Impossibility mechanism" (now: Absent Witnesses, Document Anomaly, Agreement Problem)
+  - 3 options for "What is the Kepler?" (Embassy, Lifeboat, Stopover)
+  - 3 options for "Impossibility mechanism" (Witness Problem, Document Anomaly, Mutual Exclusion)
   - Options verified as genuinely divergent (different axes, not variations)
 - GitHub workflow documented (branches, PRs, issues, gh CLI)
 - Context network initialized
@@ -47,6 +45,6 @@ None currently.
 
 ## Open Questions
 - How to structure 500 testimonies for reading/presentation?
-- ~~What is the Kepler?~~ → **Options ready for vote** (Failed Mission, Lifeboat, Stopover)
-- ~~What makes 12 testimonies "impossible"?~~ → **Options ready for vote** (Absent Witnesses, Document Anomaly, Agreement Problem)
+- ~~What is the Kepler?~~ → **Options ready for vote** (Embassy, Lifeboat, Stopover)
+- ~~What makes 12 testimonies "impossible"?~~ → **Options ready for vote** (Witness Problem, Document Anomaly, Mutual Exclusion)
 - Who collected these testimonies and why? (depends on Kepler choice)
