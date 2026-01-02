@@ -2,7 +2,112 @@
 
 An experimental collaborative fiction project. The AI team (Claude Opus + custom fiction skills/frameworks) does the heavy lifting of drafting. Humans act as producers/directors, voting on key decisions.
 
-## Origin
+## Quick Start: Contributing with AI
+
+This project is designed for AI-assisted contribution. Here's how to get started:
+
+### Step 1: Clone the repository
+```bash
+git clone https://github.com/jwynia/the-kepler-testimonies.git
+cd the-kepler-testimonies
+```
+
+### Step 2: Ask your AI what the team needs
+
+Open this repository with your AI assistant (Claude Code, Cursor, Windsurf, etc.) and use this prompt:
+
+```
+Hey, I just cloned the Kepler Testimonies repo and want to contribute to this
+collaborative fiction project. Can you:
+
+1. Read the context network (starting with context/meta/status.md) to understand
+   the current state
+2. Ask me what kind of contribution I'm interested in (story development, structure,
+   community engagement, technical, etc.)
+3. Based on my interests, suggest specific ways I can help right now
+
+Let's figure out where I can be most useful!
+```
+
+Your AI will survey the current state, ask you questions about your interests, and propose specific next steps.
+
+### Why This Works
+
+The repository contains a "context network" (`context/` directory) that functions as team memory:
+- Current status and recent work
+- Story development notes and decisions
+- Open questions and next steps
+- Community participation info
+
+Your AI can read this structure and immediately understand where the project stands and what needs attention.
+
+## The Premise
+
+> **THE KEPLER TESTIMONIES** - 500 testimonies from a vanished ship. 488 are ordinary. 12 are impossible. All are true.
+
+This was selected by the community from three AI-generated pitches. See context/decisions/001-premise-selection.md for the full story.
+
+## How Collaboration Works
+
+### AI Role (Claude + Fiction Skills)
+- Draft prose and story content
+- Generate options for community votes
+- Apply fiction craft frameworks
+- Maintain narrative consistency
+
+### Human Role (Community)
+- Vote on key story decisions via GitHub Discussions
+- Discuss narrative direction
+- Suggest ideas and flag problems
+- Contribute through AI-assisted development
+
+### Transparency Principle
+Everything is public. All session logs, drafts, and decisions live in this repo. The full history of how the story develops—including dead ends and revisions—is visible.
+
+## Participation Paths
+
+### 1. Vote on Story Decisions
+Participate via [Discussions](https://github.com/jwynia/the-kepler-testimonies/discussions):
+- **Polls** — Vote on story decisions
+- **General** — Discuss the narrative
+- **Ideas** — Suggest directions or flag problems
+
+### 2. Contribute with Your AI
+Clone the repo, have your AI read the context network, and propose contributions based on current needs and your interests.
+
+### 3. Direct Contribution
+If you want to contribute directly:
+1. Check `context/meta/status.md` for current state
+2. Review `context/planning/index.md` for next steps
+3. Create a feature branch
+4. Make your changes (following the context network structure)
+5. Submit a PR with clear description of your contribution
+
+## Project Structure
+
+```
+.context-network.md     # Discovery file pointing to context network
+context/                # Context network (team memory)
+  discovery.md          # Navigation hub
+  foundation/           # Core project info (premise, workflow)
+  story/                # Story development
+  community/            # Participation info
+  decisions/            # Decision records
+  planning/             # Roadmap and next steps
+  meta/                 # Status and network maintenance
+archive/                # Reference materials
+CLAUDE.md               # Instructions for Claude Code
+```
+
+**Important**: All planning and development notes go in the context network. Project root is for finished artifacts and repo infrastructure only.
+
+## Current Status
+
+Check `context/meta/status.md` for the latest status.
+
+As of last update: Voting options are ready for community input on foundational story questions (What is the Kepler? What makes 12 testimonies impossible?).
+
+## Origin Story
 
 This started as a [Threads post](https://www.threads.com/@jwynia/post/DS8sAi1jTX3) asking if anyone would participate in a public AI fiction experiment. The answer was yes.
 
@@ -12,17 +117,15 @@ The first vote chose the premise from three AI-generated pitches:
 - **THE KEPLER TESTIMONIES** — 500 testimonies from a vanished ship. 488 are ordinary. 12 are impossible. All are true. ✓ *Winner*
 - **TRANSLATION DISTANCE** — Every conversation with the alien is an invasion of privacy. Understanding might be worth it.
 
-"The Kepler Testimonies" was the winner and this repo was created with that name as a result.
+---
 
-## How This Works
+## For AI Assistants Reading This
 
-All AI session logs, drafts, and decisions live in this repo. The full history of how the story develops—including dead ends and revisions—will be visible.
+If you're an AI helping someone contribute to this project:
 
-Participate via [Discussions](https://github.com/jwynia/the-kepler-testimonies/discussions):
-- **Polls** — Vote on story decisions
-- **General** — Discuss the narrative
-- **Ideas** — Suggest directions or flag problems
+1. **Start with context**: Read `context/meta/status.md` and `context/discovery.md`
+2. **Survey the contributor**: Ask what they're interested in (story, structure, community, technical)
+3. **Identify opportunities**: Based on current status and their interests, propose specific contributions
+4. **Guide the process**: Help them create branches, follow the context network structure, and submit PRs
 
-## Status
-
-Premise selected. Next steps TBD.
+You have access to the full project history and context network. Use it to provide informed, specific suggestions for contribution.
