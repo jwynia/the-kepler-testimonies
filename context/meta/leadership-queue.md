@@ -6,6 +6,23 @@ This queue provides an async way to escalate Tier 3 decisions: AI documents the 
 
 ## Active Queue
 
+### [2026-01-02] Review and confirm taste.md example entry
+
+**Status**: Awaiting Director Input
+
+**Context**:
+New `context/foundation/taste.md` document created to capture individual creative preferences and establish forced tradeoffs. Document includes a template entry based on your stated preferences (Heinlein, Adams, The Expanse, pet peeve about clean good vs evil).
+
+**What's Needed**:
+Review the example taste entry in taste.md and:
+1. Confirm it accurately reflects your preferences
+2. Add/modify/remove any preferences
+3. Add any project-specific creative direction
+
+**Note**: This is editorial content, not a decision—just needs your creative input to ensure the example accurately represents your taste.
+
+---
+
 ### [2026-01-02] Should we start AI drafting before community votes conclude?
 
 **Status**: Awaiting Director Decision
