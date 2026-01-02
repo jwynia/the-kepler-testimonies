@@ -13,9 +13,23 @@
 - **NEW:** Concept brainstorm with voting options ([concept-brainstorm-2026-01-01.md](../story/concept-brainstorm-2026-01-01.md))
 
 ## What's Next
-1. Post voting options to GitHub Discussions
-2. Community votes on Kepler type + impossibility mechanism
-3. Begin outline development with winning combination
+1. Director Decision: Should we start AI drafting before community votes conclude? (See leadership-queue.md)
+2. Post voting options to GitHub Discussions
+3. Community votes on Kepler type + impossibility mechanism
+4. Begin outline development with winning combination
+
+## Decision Status
+
+### Awaiting Community Vote
+- **Discussion #8**: What is the Kepler? (options: Failed Mission, Lifeboat, Stopover)
+- **Discussion #9**: What makes 12 testimonies impossible? (options: Absent Witnesses, Document Anomaly, Agreement Problem)
+
+### Awaiting Director Decision
+- **Should we start AI drafting before community votes conclude?** → See `context/meta/leadership-queue.md` for full context and options
+
+### Recently Resolved
+- **Decision 001**: Premise selection → THE KEPLER TESTIMONIES selected
+- **Decision 002**: Governance adoption → Formal governance framework implemented
 
 ## Recent Activity
 
