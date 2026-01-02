@@ -70,6 +70,17 @@ This project uses a context network. **All planning, design, and coordination do
 ### Transparency
 Everything is public. All session logs, drafts, and revisions are visible in the repo. Document your reasoning.
 
+## Decision-Making
+
+This project uses a tiered decision-making model to clarify authority and enable velocity. See [Governance](context/foundation/governance.md) for complete details.
+
+**Quick Reference**:
+- **Tier 1 (AI Autonomous)**: Drafting, technical improvements, documentation → Proceed without approval
+- **Tier 2 (Community Advisory)**: Major story directions, character fates → Post to GitHub Discussions for vote
+- **Tier 3 (Director Decision)**: Ties, deadlocks, process changes, meta-questions → Escalate to jwynia via `context/meta/leadership-queue.md`
+
+**Key Rule**: When in doubt, bias toward action. Post to the leadership queue rather than block progress.
+
 ## Available Fiction Skills
 
 The following skills are available for story development:

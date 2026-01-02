@@ -127,6 +127,16 @@ Based on answers, your AI should propose specific, actionable contributions:
 
 ## Workflow Guidelines
 
+### Decision Authority
+
+Before contributing, understand which decisions need approval. See [Governance](context/foundation/governance.md) for complete details.
+
+- **AI Autonomous** (Tier 1): Story development, technical work → Proceed in your PR
+- **Community Vote** (Tier 2): Major story choices, character fates → Post to GitHub Discussions first
+- **Director Decision** (Tier 3): Process changes, governance changes, unclear authority → Check leadership queue
+
+When in doubt: Add to the leadership queue rather than block progress.
+
 ### Before Starting
 1. Create a feature branch with a descriptive name
 2. Check if anyone else is working on related tasks
