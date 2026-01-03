@@ -90,8 +90,8 @@ When diagnosing, identify which state applies:
 
 ### State 7: Ready for Evaluation
 **Symptoms:** Story exists but quality uncertain; need external perspective.
-**Key Questions:** Delivers on genre promise? Representations accurate? What's working vs not?
-**Interventions:** Short Story Evaluation, Sensitivity Reader
+**Key Questions:** Delivers on genre promise? Representations accurate? Aligns with taste preferences? What's working vs not?
+**Interventions:** Short Story Evaluation, Sensitivity Reader, Taste Evaluation (for projects with explicit taste.md)
 
 ## Diagnostic Process
 
@@ -132,7 +132,8 @@ Is there anything on the page?
     ├── Prose flat → Prose Style Framework
     ├── Draft needs revision → Revision Framework
     ├── Interactive/branching → Interactive Fiction Framework
-    └── Need evaluation → Sensitivity Reader + Short Story Eval
+    ├── Need evaluation → Sensitivity Reader + Short Story Eval
+    └── Check taste alignment → Taste Evaluation (if taste.md exists)
 ```
 
 ## Output Persistence

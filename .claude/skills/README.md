@@ -23,6 +23,7 @@ Core frameworks for identifying story problems and recommending interventions.
 | [genre-conventions](genre-conventions/) | Diagnose genre problems, generate genre-specific elements | `genre-elements.ts`, `genre-check.ts`, `genre-blend.ts` |
 | [interactive-fiction](interactive-fiction/) | Diagnose branching narrative problems—meaningless choices, agency conflicts | — |
 | [conlang](conlang/) | Generate phonologically consistent constructed languages | `phonology.ts`, `words.ts` |
+| [taste-eval](taste-eval/) | Evaluate work against explicit taste preferences—surface alignment and conflicts | `taste-check.ts`, `taste-audit.ts`, `preference-map.ts` |
 
 ### 2. Generative Skills
 Skills focused on creation and ideation rather than diagnosis.
@@ -207,6 +208,9 @@ Skills follow Agent Skills spec (agentskills.io):
 | list-builder | `validate-list.ts` | Assess dataset maturity and quality |
 | sensitivity-check | `sensitivity-audit.ts` | Pattern concerns scanner |
 | sensitivity-check | `representation-map.ts` | Character identity distribution |
+| taste-eval | `taste-check.ts` | Pattern-match text for taste violations |
+| taste-eval | `taste-audit.ts` | Score content against taste dimensions |
+| taste-eval | `preference-map.ts` | Visualize preference balance across contributors |
 
 ### Application Scripts
 
@@ -251,6 +255,8 @@ Extensible JSON files for domain-specific lists:
 - `story-sense/data/functions-forms.json` - Character function/form templates
 - `conlang/data/phoneme-frequencies.json` - PHOIBLE-derived frequency data
 - `conlang/data/syllable-templates.json` - Syllable structure templates
+- `taste-eval/data/taste-patterns.json` - Taste state detection patterns
+- `taste-eval/data/kepler-dimensions.json` - Project-specific taste dimensions
 
 **Dataset Maturity Levels:**
 
@@ -289,12 +295,12 @@ To add a skill to this cluster:
 
 | Category | Count | Skills |
 |----------|-------|--------|
-| Diagnostic | 12 | story-sense, worldbuilding, cliche-transcendence, character-arc, scene-sequencing, dialogue, endings, prose-style, revision, genre-conventions, interactive-fiction, conlang |
+| Diagnostic | 13 | story-sense, worldbuilding, cliche-transcendence, character-arc, scene-sequencing, dialogue, endings, prose-style, revision, genre-conventions, interactive-fiction, conlang, taste-eval |
 | Generative | 2 | story-idea-generator, drafting |
 | Workflow | 2 | story-coach, story-collaborator |
 | Utility | 2 | list-builder, sensitivity-check |
 | Application | 3 | shared-world, game-facilitator, world-fates |
-| **Total** | **21** | |
+| **Total** | **22** | |
 
 ## Related Clusters
 

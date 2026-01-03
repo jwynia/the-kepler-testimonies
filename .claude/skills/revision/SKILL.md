@@ -116,7 +116,7 @@ Addresses mechanics—grammar, spelling, consistency.
 
 **Interventions:**
 - Start with structural pass—always
-- Use the six-pass system (see below)
+- Use the seven-pass system (see below)
 - Focus on one type of problem per pass
 - Accept that structure must be solid before prose matters
 
@@ -244,7 +244,7 @@ Addresses mechanics—grammar, spelling, consistency.
 
 ---
 
-## The Six Revision Passes
+## The Seven Revision Passes
 
 Rather than fixing everything at once, use focused passes:
 
@@ -255,7 +255,10 @@ Rather than fixing everything at once, use focused passes:
 | **3. Character** | Consistency | Voice, motivation, arc progress |
 | **4. Dialogue** | Conversation | Subtext, voice, function |
 | **5. Prose** | Sentence level | Clarity, flow, precision |
-| **6. Polish** | Mechanics | Grammar, spelling, formatting |
+| **6. Taste** | Preference alignment | Taste states (T1-T7), dimension scores |
+| **7. Polish** | Mechanics | Grammar, spelling, formatting |
+
+**Note:** The Taste Pass (6) applies to projects with explicit taste preferences (e.g., taste.md). If your project doesn't have documented taste preferences, skip to Polish. Use the taste-eval skill for structured evaluation.
 
 ### Why Multiple Passes Work
 
@@ -448,6 +451,8 @@ Prose Pass
     ↓
 [Critique Partners - optional]
     ↓
+Taste Pass (if taste.md exists)
+    ↓
 Polish Pass
     ↓
 [Proofreader - optional]
@@ -513,7 +518,7 @@ When a writer presents revision problems:
 
 ### 3. Recommend Next Pass
 
-Based on where they are in the six-pass sequence.
+Based on where they are in the seven-pass sequence.
 
 ### 4. Address Psychological Blocks
 
@@ -569,7 +574,7 @@ deno run --allow-read scripts/revision-audit.ts --pass structural
 1. Identify state: R1 (Overwhelmed)
 2. Ask: "Has anyone else read it yet? What do you know about structural issues?"
 3. Recommend: Start with structural pass, not prose polish
-4. Provide: Six-pass framework as systematic approach
+4. Provide: Seven-pass framework as systematic approach
 
 ### Example 2: Revision Never Ends
 

@@ -1,0 +1,290 @@
+{
+  "_meta": {
+    "description": "Pattern libraries for detecting taste state violations",
+    "usage": "Scan text for trigger patterns; check severity modifiers; consider context exceptions",
+    "version": "1.0"
+  },
+
+  "states": {
+    "T1_institutional_cartoon": {
+      "name": "Institutional Cartoon",
+      "description": "Simplistic portrayals of institutions as uniformly dumb or evil",
+      "triggers": [
+        "too stupid to see",
+        "too dumb to understand",
+        "of course the government",
+        "corrupt officials",
+        "just another bureaucrat",
+        "faceless corporation",
+        "evil corporation",
+        "typical government incompetence",
+        "wake up and see",
+        "what they don't want you to know",
+        "the system is designed to",
+        "they're all in on it",
+        "only the hero understood",
+        "no one listened",
+        "the authorities refused to",
+        "predictable red tape",
+        "soulless bureaucracy"
+      ],
+      "severity_modifiers": {
+        "high": ["always", "never", "all of them", "everyone knows", "obviously"],
+        "medium": ["just another", "typical", "as usual", "of course"],
+        "low": ["sometimes", "often", "tends to"]
+      },
+      "context_exceptions": [
+        "Spoken by unreliable narrator with later correction",
+        "Character's limited perspective explicitly challenged",
+        "Ironic framing made clear",
+        "Critique of character's worldview, not author's"
+      ],
+      "fix_suggestions": [
+        "Show specific constraints the institution faces",
+        "Add internal perspective from someone within the system",
+        "Explain failure through incentives, not stupidity",
+        "Show competent people trapped by structural issues"
+      ]
+    },
+
+    "T2_cynicism_as_cleverness": {
+      "name": "Cynicism as Cleverness",
+      "description": "Snark and nihilism substituting for insight",
+      "triggers": [
+        "nothing ever changes",
+        "that's just how it is",
+        "what did you expect",
+        "people never change",
+        "there's no point in",
+        "might as well give up",
+        "it's all a joke",
+        "everything's meaningless",
+        "nobody cares about",
+        "that's adorable",
+        "oh, sweet summer child",
+        "you actually believe",
+        "naive enough to think",
+        "welcome to the real world"
+      ],
+      "severity_modifiers": {
+        "high": ["clearly", "obviously", "everyone with a brain knows"],
+        "medium": ["apparently", "supposedly", "I guess"],
+        "low": ["seems like", "might be"]
+      },
+      "context_exceptions": [
+        "Character in depression arc with later growth",
+        "Cynicism shown as character flaw being addressed",
+        "Explicitly framed as incorrect worldview",
+        "Followed by genuine engagement"
+      ],
+      "fix_suggestions": [
+        "Ground critique in specific mechanisms",
+        "Show what's actually at stake",
+        "Give cynical character something to care about",
+        "Distinguish earned skepticism from performative nihilism"
+      ]
+    },
+
+    "T3_worldbuilding_dominance": {
+      "name": "Worldbuilding Dominance",
+      "description": "Story stops for exposition; setting overwhelms character",
+      "triggers": [
+        "let me explain how",
+        "you see, in our world",
+        "the history of this place",
+        "as everyone knows",
+        "it should be noted that",
+        "for those unfamiliar with",
+        "the rules state that",
+        "according to tradition",
+        "in the days before",
+        "the system works as follows"
+      ],
+      "severity_modifiers": {
+        "high": ["first, you must understand", "to fully comprehend", "it's important to know"],
+        "medium": ["basically", "essentially", "in short"],
+        "low": ["briefly", "simply put"]
+      },
+      "structural_patterns": [
+        "Three or more paragraphs of pure exposition",
+        "Character asks obvious question to trigger info-dump",
+        "New character introduced primarily to explain",
+        "Action pauses for worldbuilding"
+      ],
+      "context_exceptions": [
+        "In-world document (testimony format justifies exposition)",
+        "Character discovery integrating world info",
+        "Exposition creates immediate stakes",
+        "World detail triggers character action"
+      ],
+      "fix_suggestions": [
+        "Deliver world info through character experience",
+        "Integrate exposition with action",
+        "Cut to essential details only",
+        "Let mystery remain—reader doesn't need everything explained"
+      ]
+    },
+
+    "T4_narrator_commentary": {
+      "name": "Narrator Commentary",
+      "description": "Author voice intrudes; wit comes from outside story",
+      "triggers": [
+        "dear reader",
+        "you might be wondering",
+        "as you can imagine",
+        "if you're thinking that",
+        "spoiler alert",
+        "plot twist",
+        "but I digress",
+        "where were we",
+        "fourth wall",
+        "as we say in",
+        "wink wink",
+        "nudge nudge"
+      ],
+      "voice_inconsistencies": [
+        "Vocabulary suddenly shifts to modern slang in period piece",
+        "Character makes pop culture reference they wouldn't know",
+        "Narration more clever than POV character would be",
+        "Knowing asides that break perspective"
+      ],
+      "context_exceptions": [
+        "Established omniscient narrator voice",
+        "Framed as character's journal or testimony",
+        "Stylistic choice consistent throughout",
+        "Genre conventions (comedy, parody) permit meta-awareness"
+      ],
+      "fix_suggestions": [
+        "Ground wit in character perspective",
+        "Keep vocabulary consistent with POV",
+        "Let humor arise from situation",
+        "If meta-commentary needed, frame it clearly"
+      ]
+    },
+
+    "T5_unearned_impossibility": {
+      "name": "Unearned Impossibility",
+      "description": "Magic/mystery is arbitrary; no internal logic",
+      "triggers": [
+        "suddenly, inexplicably",
+        "for some reason",
+        "without warning",
+        "out of nowhere",
+        "it just happened",
+        "no one knew why",
+        "mysteriously",
+        "against all logic",
+        "defying explanation",
+        "somehow"
+      ],
+      "severity_modifiers": {
+        "high": ["completely impossible", "utterly inexplicable", "made no sense at all"],
+        "medium": ["strange", "odd", "unusual"],
+        "low": ["unexpected", "surprising"]
+      },
+      "structural_patterns": [
+        "Resolution depends on previously unestablished element",
+        "Mystery has no internal rules",
+        "Supernatural element serves convenience",
+        "Deus ex machina resolution"
+      ],
+      "context_exceptions": [
+        "Mystery meant to remain mysterious (with thematic purpose)",
+        "Early in story with later explanation",
+        "Character POV—they don't understand, but rules exist",
+        "Cosmic horror intentionally beyond comprehension"
+      ],
+      "fix_suggestions": [
+        "Establish internal rules for impossibility",
+        "Plant hints for later revelation",
+        "Ensure mystery rewards attention on re-read",
+        "Give even strange things consistent logic"
+      ]
+    },
+
+    "T6_bumbling_for_plot": {
+      "name": "Bumbling for Plot",
+      "description": "Characters fail stupidly to serve story convenience",
+      "triggers": [
+        "didn't think to",
+        "forgot to mention",
+        "if only they had",
+        "why didn't they just",
+        "it never occurred to",
+        "failed to notice",
+        "overlooked the obvious",
+        "left it behind",
+        "didn't bother to"
+      ],
+      "structural_patterns": [
+        "Competent character makes obvious mistake",
+        "Information conveniently withheld",
+        "Easy solution ignored",
+        "Character's intelligence varies by scene needs"
+      ],
+      "severity_modifiers": {
+        "high": ["stupidly", "inexplicably", "for no good reason"],
+        "medium": ["carelessly", "hastily", "without thinking"],
+        "low": ["unfortunately", "regrettably"]
+      },
+      "context_exceptions": [
+        "Character is established as fallible in this way",
+        "Stress or time pressure explains oversight",
+        "Information asymmetry is established",
+        "Failure comes from constraint, not incompetence"
+      ],
+      "fix_suggestions": [
+        "Give character real constraints that cause failure",
+        "Establish character limitations early",
+        "Create genuine obstacles, not manufactured ones",
+        "Let competent characters be competent"
+      ]
+    },
+
+    "T7_baroque_complexity": {
+      "name": "Baroque Complexity",
+      "description": "Complexity for its own sake; depth confused with intricacy",
+      "triggers": [
+        "it's more complicated than that",
+        "the situation is complex",
+        "there are layers to this",
+        "you couldn't possibly understand",
+        "wheels within wheels",
+        "deeper meaning",
+        "hidden significance",
+        "on multiple levels"
+      ],
+      "structural_patterns": [
+        "Subplots that don't resolve or connect",
+        "Excessive point-of-view switches",
+        "Philosophical tangents that don't serve story",
+        "Unexplained symbolism treated as depth"
+      ],
+      "severity_modifiers": {
+        "high": ["infinitely complex", "beyond comprehension", "impossibly intricate"],
+        "medium": ["quite complex", "rather involved", "somewhat convoluted"],
+        "low": ["a bit complicated", "not straightforward"]
+      },
+      "context_exceptions": [
+        "Complexity serves thematic purpose",
+        "Intricacy creates meaningful tension",
+        "Layers are actually connected",
+        "Earned complexity (mystery genre, etc.)"
+      ],
+      "fix_suggestions": [
+        "Ask what each layer accomplishes",
+        "Simplify to essence without losing meaning",
+        "Ensure complexity serves story function",
+        "Cut what's clever but not necessary"
+      ]
+    }
+  },
+
+  "detection_config": {
+    "case_sensitive": false,
+    "require_word_boundaries": true,
+    "minimum_confidence": 0.6,
+    "context_window": 200,
+    "severity_levels": ["low", "medium", "high"]
+  }
+}
