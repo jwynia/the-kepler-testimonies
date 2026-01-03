@@ -77,26 +77,29 @@ gh pr merge 123
 # Discussions
 gh api repos/jwynia/the-kepler-testimonies/discussions
 
-# Polls (must be created via web UI - API doesn't support poll options)
+# Polls (create via web UI or API)
+# Polls are created as Discussion posts with poll options
 ```
 
 ### Creating a Poll
 
-**Polls must be created through the GitHub web UI.** The GraphQL API does not support creating poll options programmatically.
+Polls are created as GitHub Discussions in the Polls category using native poll syntax.
 
-To create a poll:
-1. Go to: https://github.com/jwynia/the-kepler-testimonies/discussions/new?category=polls
-2. Enter a **Discussion title**
-3. Optionally add body text with context about the options
-4. Fill in the **Poll question** field
-5. Add **Poll options** (minimum 2, click "Add an option" for more)
-6. Click **Start poll**
+**Poll Syntax:** Use a code block with `[poll]` to create clickable voting options:
 
-**Important:**
-- Polls are a special category format—you cannot add polls to other discussion categories
-- Do NOT use emoji reactions for voting (GitHub only supports 8 specific emojis)
-- Native polls provide clickable options with automatic vote counting
-- Up to 8 poll options are supported
+````markdown
+```[poll type=regular results=always public=true]
+# Your question here
+- Option 1
+- Option 2
+- Option 3
+- None of these (comment with your idea)
+```
+````
+
+**Important:** Do NOT use emoji reactions for voting. GitHub only supports 8 reaction emojis and custom emojis like 🅰️🅱️🅲 aren't available. Native polls provide clickable options with automatic vote counting.
+
+Create via the web UI at: https://github.com/jwynia/the-kepler-testimonies/discussions/new?category=polls
 
 ## Relationship Network
 

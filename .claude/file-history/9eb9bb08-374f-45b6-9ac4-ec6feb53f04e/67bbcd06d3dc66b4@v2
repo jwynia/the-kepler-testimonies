@@ -1,0 +1,44 @@
+# Current Project Status
+
+## Last Updated
+2026-01-01
+
+## State
+**Voting Options Ready** - Brainstormed divergent options for community vote on two foundational questions.
+
+## What Exists
+- Locked premise: "500 testimonies from a vanished ship. 488 are ordinary. 12 are impossible. All are true."
+- Project structure and context network
+- Community participation channels (GitHub Discussions)
+- **NEW:** Concept brainstorm with voting options ([concept-brainstorm-2026-01-01.md](../story/concept-brainstorm-2026-01-01.md))
+
+## What's Next
+1. Post voting options to GitHub Discussions
+2. Community votes on Kepler type + impossibility mechanism
+3. Begin outline development with winning combination
+
+## Recent Activity
+
+### 2026-01-01
+- **Concept brainstorm completed** using Escape Velocity Protocol
+  - 3 options for "What is the Kepler?" (Embassy, Lifeboat, Chorus)
+  - 3 options for "Impossibility mechanism" (Witness Problem, Document Anomaly, Mutual Exclusion)
+  - Options verified as genuinely divergent (different axes, not variations)
+- GitHub workflow documented (branches, PRs, issues, gh CLI)
+- Context network initialized
+- Foundation documents created
+- Decision record for premise selection documented
+
+### December 2024
+- Project created after Threads interest check
+- Community voted on premise
+- THE KEPLER TESTIMONIES selected
+
+## Blockers
+None currently.
+
+## Open Questions
+- How to structure 500 testimonies for reading/presentation?
+- ~~What is the Kepler?~~ → **Options ready for vote** (Embassy, Lifeboat, Chorus)
+- ~~What makes 12 testimonies "impossible"?~~ → **Options ready for vote** (Witness Problem, Document Anomaly, Mutual Exclusion)
+- Who collected these testimonies and why? (depends on Kepler choice)
