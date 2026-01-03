@@ -1,0 +1,128 @@
+# Plan: Incorporate Outline Structure Guide into Context Network
+
+## Goal
+Adapt the outline structure system from `inbox/outline-structure-guide.md` into this project's context network, modified for the testimony format rather than traditional novel chapters.
+
+## Key Principles to Adopt
+
+From the guide:
+1. **Atomic documents** - One concept per file, heavily cross-linked
+2. **Navigation everywhere** - Every folder has an `_index.md` hub
+3. **Multiple granularities** - Tagline → Premise → Synopsis → Outline → Draft
+4. **Clear separation** - Structure, elements, craft decisions, and prose live apart
+5. **Backlog system** - Issue tracking for story problems with prioritized categories
+6. **Status everywhere** - Everything has a clear state
+
+## Adaptation Required
+
+The guide assumes traditional novel chapters. This project has:
+- 500 testimonies (488 ordinary, 12 impossible)
+- Epistolary/testimony format
+- Community-directed development
+
+This requires structural adaptation while preserving the organizational principles.
+
+## Proposed Changes
+
+### 1. Update `context/story/` Structure
+
+Transform `context/story/` to follow the guide's separation:
+
+```
+context/story/
+├── index.md                    # Navigation hub (already exists, update)
+├── meta/                       # Story-level summaries
+│   ├── tagline.md             # One line (move from foundation?)
+│   ├── premise.md             # One paragraph (already exists in foundation)
+│   └── synopsis.md            # One page overview
+├── outline/
+│   ├── _index.md              # Structure overview
+│   ├── backlog.md             # Issue tracker
+│   ├── structure.md           # How 500 testimonies are organized
+│   ├── arcs/                  # Narrative arcs across testimonies
+│   │   └── _index.md
+│   ├── testimonies/           # Testimony outlines (analogous to chapters/)
+│   │   ├── _index.md          # Testimony roster
+│   │   ├── the-twelve/        # The 12 impossible testimonies
+│   │   │   └── _index.md
+│   │   └── ordinary/          # The 488 ordinary testimonies
+│   │       └── _index.md
+│   └── issues/
+│       └── _index.md
+├── elements/
+│   ├── _index.md
+│   ├── characters/
+│   │   └── _index.md
+│   ├── places/
+│   │   └── _index.md
+│   ├── organizations/
+│   │   └── _index.md
+│   └── objects/
+│       └── _index.md
+└── craft/
+    ├── _index.md
+    ├── voice.md               # Testimony voice decisions
+    └── decisions.md           # Writing choices
+```
+
+### 2. Add Drafts Location (Outside Context Network)
+
+Per project rules, finished artifacts go outside context network:
+
+```
+testimonies/                    # Published testimony texts
+├── the-twelve/
+└── ordinary/
+```
+
+### 3. Create New Index Files
+
+Add `_index.md` navigation files to all folders that contain multiple items.
+
+### 4. Update Discovery/Navigation
+
+Update `context/discovery.md` to reflect new structure.
+
+### 5. Document the System
+
+Create `context/foundation/outline-workflow.md` explaining:
+- How this system works
+- Backlog priority levels
+- Issue lifecycle
+- Drafting workflow adapted for testimonies
+
+## Questions to Clarify
+
+1. **Meta location:** Should `tagline.md` and `premise.md` stay in `foundation/` or move to `story/meta/`? (Guide puts them under novel-specific meta/)
+
+2. **Testimony organization:** The 500 testimonies need a grouping strategy. Options:
+   - By narrator type (crew, passengers, observers)
+   - By timeline (before, during, after the event)
+   - By theme/thread
+   - Simply numbered with metadata
+
+3. **Immediate scope:** Should I set up the full structure now (while voting is active), or just document the system and create structure incrementally as needed?
+
+## Files to Create/Modify
+
+### Create New Files
+- `context/story/meta/tagline.md`
+- `context/story/meta/synopsis.md`
+- `context/story/outline/_index.md`
+- `context/story/outline/backlog.md`
+- `context/story/outline/issues/_index.md`
+- `context/story/outline/testimonies/_index.md`
+- `context/story/elements/_index.md`
+- `context/story/elements/characters/_index.md`
+- `context/story/elements/places/_index.md`
+- `context/story/craft/_index.md`
+- `context/story/craft/voice.md`
+- `context/foundation/outline-workflow.md`
+
+### Modify Existing Files
+- `context/story/index.md` - Update to reflect new structure
+- `context/discovery.md` - Add navigation to new areas
+- `context/meta/status.md` - Document structural changes
+
+### Archive
+- `inbox/outline-structure-guide.md` → Move to `archive/` after incorporation

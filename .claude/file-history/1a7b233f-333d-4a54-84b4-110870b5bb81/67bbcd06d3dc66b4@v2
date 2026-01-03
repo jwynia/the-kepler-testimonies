@@ -4,10 +4,6 @@
 2026-01-03
 
 ## State
-**Premise Selected** - The community has chosen THE KEPLER TESTIMONIES as the story concept. Story development infrastructure now in place.
-2026-01-02
-
-## State
 **Voting Active** - Community polls live on GitHub Discussions for two foundational questions.
 
 ## What Exists
@@ -36,6 +32,7 @@
   - `foundation/outline-workflow.md` - System documentation
 - **Backlog system ready** - Priority-based issue tracking for story problems
 - **Navigation updated** - discovery.md and story/index.md now reflect new structure
+
 ### 2026-01-02
 - **Polls created via web UI** - GitHub Discussions polls require manual creation through the web interface (API doesn't support poll options); original emoji-reaction polls and API-created discussions closed
 - **Voting format established** - all polls include "none of these" with space for suggestions

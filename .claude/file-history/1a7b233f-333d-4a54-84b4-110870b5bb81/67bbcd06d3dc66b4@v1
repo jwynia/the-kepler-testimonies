@@ -4,16 +4,11 @@
 2026-01-03
 
 ## State
-**Premise Selected** - The community has chosen THE KEPLER TESTIMONIES as the story concept. Story development infrastructure now in place.
-2026-01-02
-
-## State
 **Voting Active** - Community polls live on GitHub Discussions for two foundational questions.
 
 ## What Exists
 - Locked premise: "500 testimonies from a vanished ship. 488 are ordinary. 12 are impossible. All are true."
 - Project structure and context network
-- **Story development structure** - Full outline skeleton with meta, outline, elements, and craft sections
 - Community participation channels (GitHub Discussions)
 - Concept brainstorm with voting options ([concept-brainstorm-2026-01-01.md](../story/concept-brainstorm-2026-01-01.md))
 - **Active polls:**
@@ -27,15 +22,6 @@
 
 ## Recent Activity
 
-### 2026-01-03
-- **Outline structure implemented** - Adopted organizational system from another project
-  - `story/meta/` - Tagline, premise, synopsis (premise moved from foundation/)
-  - `story/outline/` - Structure overview, backlog, issues tracking
-  - `story/elements/` - Characters, places, organizations, objects
-  - `story/craft/` - Voice decisions, writing choices log
-  - `foundation/outline-workflow.md` - System documentation
-- **Backlog system ready** - Priority-based issue tracking for story problems
-- **Navigation updated** - discovery.md and story/index.md now reflect new structure
 ### 2026-01-02
 - **Polls created via web UI** - GitHub Discussions polls require manual creation through the web interface (API doesn't support poll options); original emoji-reaction polls and API-created discussions closed
 - **Voting format established** - all polls include "none of these" with space for suggestions

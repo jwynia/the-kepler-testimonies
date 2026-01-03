@@ -13,7 +13,6 @@ Core project information that rarely changes.
 - [The Premise](foundation/premise.md) - The winning story concept
 - [Workflow](foundation/workflow.md) - How AI+human collaboration works
 - [GitHub Workflow](foundation/github-workflow.md) - Technical GitHub process (branches, PRs, issues)
-- [Outline Workflow](foundation/outline-workflow.md) - Story development structure and issue tracking
 
 ### Story Development
 All story-related planning and development.
