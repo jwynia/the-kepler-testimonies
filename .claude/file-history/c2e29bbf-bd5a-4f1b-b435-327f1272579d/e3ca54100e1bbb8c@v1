@@ -1,0 +1,189 @@
+{
+  "_meta": {
+    "description": "Project-specific taste dimensions derived from The Kepler Testimonies taste.md",
+    "source": "context/foundation/taste.md",
+    "updated": "2026-01-03",
+    "usage": "Score creative work (0-5) on each dimension; weight multiplies for overall score"
+  },
+
+  "dimensions": [
+    {
+      "id": "competence",
+      "name": "Competence vs. Bumbling",
+      "description": "Characters solve problems methodically; failures come from constraints, not stupidity",
+      "positive_pole": "Capable people facing real constraints",
+      "negative_pole": "Bumbling idiots serving plot convenience",
+      "weight": 1.5,
+      "check_questions": [
+        "Do characters approach problems methodically?",
+        "Are failures caused by constraints rather than stupidity?",
+        "Do characters have skills appropriate to their roles?",
+        "Would a competent person in this situation act similarly?"
+      ],
+      "positive_indicators": [
+        "Character uses available resources logically",
+        "Failures come from genuine constraints",
+        "Problem-solving shows domain knowledge",
+        "Characters learn from mistakes"
+      ],
+      "negative_indicators": [
+        "Character ignores obvious solutions",
+        "Failures serve plot convenience",
+        "Competence varies based on scene needs",
+        "Idiot ball passed to enable conflict"
+      ]
+    },
+    {
+      "id": "institutional_realism",
+      "name": "Institutional Realism",
+      "description": "Power flows through incentives, information, and constraints—not cartoon corruption",
+      "positive_pole": "Power through incentives/information/constraints",
+      "negative_pole": "Cartoon corruption and institutional stupidity",
+      "weight": 2.0,
+      "check_questions": [
+        "Do authority figures have constraints they're working within?",
+        "Is there an internal perspective on institutions?",
+        "Are failures explained by incentives rather than malice?",
+        "Do people within systems understand problems they can't fix?"
+      ],
+      "positive_indicators": [
+        "Institution has internal logic",
+        "Characters face incentive structures",
+        "Information asymmetry creates conflict",
+        "Reform is hard, not because people are evil"
+      ],
+      "negative_indicators": [
+        "All officials are corrupt or stupid",
+        "Only outsiders see the truth",
+        "Institutions exist to be obstacles",
+        "Government/corporation = bad, full stop"
+      ]
+    },
+    {
+      "id": "voice_integration",
+      "name": "Voice Integration",
+      "description": "Wit comes from character, not narrator commentary",
+      "positive_pole": "Wit as character expression",
+      "negative_pole": "Narrator commentary and meta-humor",
+      "weight": 1.0,
+      "check_questions": [
+        "Does humor come from character or narrator?",
+        "Is voice consistent with the POV character?",
+        "Do jokes break the story frame?",
+        "Is wit grounded in situation or in author cleverness?"
+      ],
+      "positive_indicators": [
+        "Wit emerges from character perspective",
+        "Humor fits the character's voice",
+        "Jokes arise from situation",
+        "Voice stays in story world"
+      ],
+      "negative_indicators": [
+        "Narrator makes asides to reader",
+        "Meta-humor breaks frame",
+        "Author cleverness overrides character",
+        "Winking at the audience"
+      ]
+    },
+    {
+      "id": "worldbuilding_subordination",
+      "name": "Worldbuilding Subordination",
+      "description": "World serves story, not the reverse; details earn their place",
+      "positive_pole": "World serves story",
+      "negative_pole": "Story serves world; exposition for its own sake",
+      "weight": 1.0,
+      "check_questions": [
+        "Does each world detail earn its place through action?",
+        "Would the story survive without this exposition?",
+        "Is worldbuilding delivered through character experience?",
+        "Does setting enhance story, or dominate it?"
+      ],
+      "positive_indicators": [
+        "World details revealed through action",
+        "Exposition integrated with character goals",
+        "Setting creates stakes and constraints",
+        "Mysteries unfold naturally"
+      ],
+      "negative_indicators": [
+        "Story stops for exposition",
+        "Character exists to explain world",
+        "Lengthy descriptions of systems",
+        "Worldbuilding as end in itself"
+      ]
+    },
+    {
+      "id": "impossibility_logic",
+      "name": "Impossibility Logic",
+      "description": "The 12 impossible testimonies have internal rules; mystery is earned, not arbitrary",
+      "positive_pole": "Earned mysteries with internal rules",
+      "negative_pole": "Arbitrary weirdness for effect",
+      "weight": 1.5,
+      "check_questions": [
+        "Do the impossible elements follow internal rules?",
+        "Is the reveal inevitable in hindsight?",
+        "Has the impossibility been properly set up?",
+        "Does the mystery reward attention?"
+      ],
+      "positive_indicators": [
+        "Impossibility has consistent rules",
+        "Hints planted for later revelation",
+        "Mystery deepens on re-read",
+        "Weirdness serves larger purpose"
+      ],
+      "negative_indicators": [
+        "Random supernatural elements",
+        "Because plot said so",
+        "Deus ex machina resolutions",
+        "Weirdness for its own sake"
+      ]
+    },
+    {
+      "id": "testimony_authenticity",
+      "name": "Testimony Authenticity",
+      "description": "Testimonies come from real people with real lives, not archetypes serving plot",
+      "positive_pole": "Real people with real lives",
+      "negative_pole": "Archetypes serving plot function",
+      "weight": 1.5,
+      "check_questions": [
+        "Does this person feel like they have a life beyond the story?",
+        "Are details specific rather than generic?",
+        "Does voice feel distinct from other testimonies?",
+        "Would this person exist without the plot?"
+      ],
+      "positive_indicators": [
+        "Specific personal details",
+        "Voice distinct from others",
+        "Concerns beyond plot relevance",
+        "History that predates the story"
+      ],
+      "negative_indicators": [
+        "Generic character type",
+        "Exists only to witness events",
+        "Interchangeable with other testimonies",
+        "No life outside story function"
+      ]
+    }
+  ],
+
+  "scoring": {
+    "scale": {
+      "5": "Exemplary—clearly demonstrates positive pole",
+      "4": "Strong—mostly positive with minor issues",
+      "3": "Neutral—neither positive nor negative",
+      "2": "Weak—leans toward negative pole",
+      "1": "Poor—clearly demonstrates negative pole",
+      "0": "Absent—dimension not present in content"
+    },
+    "calculation": {
+      "method": "weighted_average",
+      "formula": "sum(score * weight) / sum(weight)",
+      "note": "Only include dimensions present in content (score > 0)"
+    },
+    "interpretation": {
+      "4.0+": "Strong alignment with project taste",
+      "3.0-3.9": "Adequate alignment, some areas for improvement",
+      "2.0-2.9": "Significant taste misalignment—review recommended",
+      "below_2.0": "Major revision likely needed"
+    }
+  }
+}

@@ -1,0 +1,117 @@
+# Plan: Structured Taste Evaluation Criteria
+
+## Context
+
+PR #13 proposes:
+- `context/foundation/taste.md` - Individual creative preferences (narrative style)
+- `context/foundation/ideal-state.md` - Success criteria and changelog
+
+**The Gap**: These documents capture preferences but lack the structured, evaluable format that existing skills use (story-sense states, genre-conventions requirements, revision checklists).
+
+## Goal
+
+Transform narrative taste preferences into **structured evaluation criteria** that:
+1. Can be diagnosed (symptoms → state → intervention)
+2. Can be evaluated objectively (checklists, requirements)
+3. Integrate with existing fiction skills
+4. Guide Tier 1 autonomous drafting decisions
+
+## Approach: Structured Taste Framework
+
+### 1. Extract Evaluation Dimensions from Jon's Taste Entry
+
+From the existing narrative preferences, derive evaluable dimensions:
+
+| Preference | Dimension | Evaluable Criteria |
+|------------|-----------|-------------------|
+| "Competent people facing real constraints" | **Competence vs. Bumbling** | Characters solve problems methodically; failures come from constraints not stupidity |
+| "Actual machinations of power" | **Institutional Realism** | Power flows through incentives/info/constraints, not cartoon corruption |
+| "Wit as character voice" | **Voice-Integrated Humor** | Wit comes from character, not narrator commentary |
+| "Grounded worldbuilding" | **Worldbuilding Subordination** | World serves story, not reverse; details earn their place |
+| "Earned impossibility" | **Impossibility Logic** | The 12 impossibilities have internal logic, not arbitrary |
+
+### 2. Create Taste States (Modeled on story-sense)
+
+Similar to story-sense states, create diagnosable taste states:
+
+```
+State T1: Institutional Cartoon
+Symptoms: Government dumb, corporation evil, hero sees through
+Fix: Show incentives, constraints, internal knowledge
+
+State T2: Cynicism as Cleverness
+Symptoms: Snark without substance, nihilism posing as insight
+Fix: Ground critique in specific mechanism, show stakes
+
+State T3: Worldbuilding Dominance
+Symptoms: Story stops for exposition, setting > character
+Fix: Deliver world through action, cut info dumps
+
+State T4: Narrator Commentary
+Symptoms: Wit comes from outside story, author intrudes
+Fix: Embed voice in character, cut narrator jokes
+
+State T5: Unearned Impossibility
+Symptoms: Magic/mystery arbitrary, "because plot" answers
+Fix: Establish internal logic, earn the reveal
+```
+
+### 3. Create Taste Checklist (Modeled on revision passes)
+
+For each testimony draft, a taste evaluation pass:
+
+**Institutional Realism Check**
+- [ ] If authority figures appear, do they have constraints?
+- [ ] If decisions go wrong, is failure mechanism clear?
+- [ ] Is there an internal view (not just external critique)?
+
+**Competence Check**
+- [ ] Do characters approach problems methodically?
+- [ ] Are failures from constraints, not stupidity?
+- [ ] Do characters have skills appropriate to their roles?
+
+**Voice Check**
+- [ ] Does wit come from character, not narrator?
+- [ ] Are voices distinct per testimony?
+- [ ] Is humor situation-grounded?
+
+**Worldbuilding Check**
+- [ ] Does exposition earn its place?
+- [ ] Are details delivered through action?
+- [ ] Does world serve story, not reverse?
+
+### 4. Integration with Existing Skills
+
+| Skill | Taste Integration |
+|-------|-------------------|
+| story-sense | Add T1-T5 states to diagnostic tree |
+| genre-conventions | Add "Kepler Mystery" requirements |
+| revision | Add "Taste Pass" to six-pass sequence |
+| drafting | Pre-flight checklist before testimony drafting |
+
+## Deliverables
+
+1. **Enhance `taste.md`** with structured evaluation section:
+   - Taste States (T1-T5) with symptoms/fixes
+   - Taste Checklist for drafts
+   - Integration points with skills
+
+2. **Create taste-eval tool** (optional):
+   - `deno run scripts/taste-eval.ts testimony.md`
+   - Pattern-match for taste violations
+
+3. **Update `voice.md`** (when drafting begins):
+   - Link taste criteria to voice decisions
+   - Apply structured evaluation to sample testimonies
+
+## Files to Modify
+
+- `context/foundation/taste.md` (in PR #13) - Add structured section
+- `context/story/craft/voice.md` - Link to taste criteria
+- Optionally: `.claude/skills/story-sense/SKILL.md` - Add taste states
+
+## Questions for Clarification
+
+1. **Scope**: Should this enhance PR #13's taste.md, or create a separate document?
+2. **Granularity**: Should taste states be project-specific or general?
+3. **Integration depth**: Full skill integration or lightweight reference?
