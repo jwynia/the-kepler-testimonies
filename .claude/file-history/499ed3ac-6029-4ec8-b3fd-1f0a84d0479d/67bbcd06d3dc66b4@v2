@@ -1,0 +1,103 @@
+# Current Project Status
+
+## Last Updated
+2026-01-08
+
+## State
+**Foundation Established** - Director decision resolved tied community votes. The Kepler is a waystation, impossibility is mundane agreement failures, structure is investigation-driven. Ready for outline development.
+
+## What Exists
+- Locked premise: "500 testimonies from a vanished ship. 488 are ordinary. 12 are impossible. All are true."
+- Project structure and context network
+- **Story development structure** - Full outline skeleton with meta, outline, elements, and craft sections
+- Community participation channels (GitHub Discussions)
+- Foundation documents for creative taste and success criteria
+- Concept brainstorm with voting options ([concept-brainstorm-2026-01-01.md](../story/concept-brainstorm-2026-01-01.md))
+- **Foundation decisions resolved:**
+  - **Vessel Type**: The Stopover (deep-space waystation)
+  - **Impossibility Type**: The Agreement Problem (mundane details that can't all be true)
+  - **Structure**: Investigation-driven narrative (NOT testimony catalog)
+  - **Investigator Arc**: Bureaucratic assignment → personal connection → evidence won't fit → institutional pressure
+
+## What's Next
+1. ~~Community votes on Kepler type + impossibility mechanism~~ Resolved (tied votes, Director decision)
+2. Develop investigator character and their arc
+3. Design how testimonies integrate into investigation structure
+4. Begin outline development
+
+## Decision Status
+
+### Open Questions for Outline Development
+- **Who is the investigator?** Role, agency, disposition
+- **What's the personal connection?** Who was aboard that matters to them
+- **What's the institution?** What agency, what cover story, why suppress
+- **What's the ending?** Comply, expose, disappear, or something else
+- **The Kepler station**: Location, how long ago, what "vanished" means
+
+### Recently Resolved
+- **Decision 003**: Foundation choices → Stopover + Agreement Problem + Investigation structure (Director decision, tie-breaker)
+- **Decision 002**: Governance adoption → Formal governance framework implemented
+- **Decision 001**: Premise selection → THE KEPLER TESTIMONIES selected
+
+## Recent Activity
+
+### 2026-01-08
+- **Foundation decisions resolved** - Director decision broke tied community votes
+  - Vessel: The Stopover (waystation on transit route)
+  - Impossibility: The Agreement Problem (mundane details inconsistent)
+  - Structure: Investigation-driven (protagonist investigator, not testimony catalog)
+  - Arc: Four phases (assignment → personal connection → evidence won't fit → pressure)
+- Decision record created: [003-foundation-choices.md](../decisions/003-foundation-choices.md)
+- Ready for outline development
+
+### 2026-01-03
+- **Outline structure implemented** - Adopted organizational system from another project
+  - `story/meta/` - Tagline, premise, synopsis (premise moved from foundation/)
+  - `story/outline/` - Structure overview, backlog, issues tracking
+  - `story/elements/` - Characters, places, organizations, objects
+  - `story/craft/` - Voice decisions, writing choices log
+  - `foundation/outline-workflow.md` - System documentation
+- **Backlog system ready** - Priority-based issue tracking for story problems
+- **Navigation updated** - discovery.md and story/index.md now reflect new structure
+### 2026-01-02
+- **Foundation documents established** - Created taste.md and ideal-state.md
+  - Individual taste entries framework (Director example included)
+  - Forced tradeoffs section for explicit creative direction
+  - Success criteria and deliverables defined
+  - Changelog approach established
+  - Both integrated into onboarding workflow
+- **Polls created via web UI** - GitHub Discussions polls require manual creation through the web interface (API doesn't support poll options); original emoji-reaction polls and API-created discussions closed
+- **Voting format established** - all polls include "none of these" with space for suggestions
+- **Cliché transcendence completed** - all moderate-risk options freshened
+  - "Embassy" → "Failed Mission" (decommissioning crew, contact arrives while closing)
+  - "Witness Problem" → "Absent Witnesses" (people with alibis who were never aboard)
+  - "Mutual Exclusion" → "Agreement Problem" (trivial details inconsistent, not dramatic events)
+  - "The Chorus" replaced with "The Stopover" (flagged as fantasy/magic)
+
+### 2026-01-01
+- **Concept brainstorm completed** using Escape Velocity Protocol
+  - 3 options for "What is the Kepler?" (now: Failed Mission, Lifeboat, Stopover)
+  - 3 options for "Impossibility mechanism" (now: Absent Witnesses, Document Anomaly, Agreement Problem)
+  - Options verified as genuinely divergent (different axes, not variations)
+- GitHub workflow documented (branches, PRs, issues, gh CLI)
+- Context network initialized
+- Foundation documents created
+- Decision record for premise selection documented
+
+### December 2025
+- Project created after Threads interest check
+- Community voted on premise
+- THE KEPLER TESTIMONIES selected
+
+## Blockers
+None currently.
+
+## Open Questions
+- ~~What is the Kepler?~~ → **RESOLVED**: The Stopover (waystation)
+- ~~What makes 12 testimonies "impossible"?~~ → **RESOLVED**: The Agreement Problem (mundane inconsistencies)
+- ~~How to structure 500 testimonies for reading/presentation?~~ → **RESOLVED**: Investigation-driven narrative
+- Who is the investigator? (role, agency, disposition)
+- What's the personal connection? (who was aboard that matters to them)
+- What's the institution? (what agency, what cover story, why suppress)
+- What's the ending? (comply, expose, disappear, or something else)
+- What does "vanished" mean exactly? How long ago? Did it reappear?
