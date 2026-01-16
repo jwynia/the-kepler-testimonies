@@ -4,7 +4,7 @@
 2026-01-16
 
 ## State
-**Mystery Genre Honored + Thematic Framework Established** - After initial thematic work, recognized that original pitch is a mystery hook. Revised to honor that promise: the investigator DOES solve the puzzle, DOES understand the Agreement Problem. New thesis: "Truth can be discovered but not transmitted." This is mystery plus literary depth, not mystery subverted. Ready for continued outline expansion.
+**Thematic Framework Established** - Responding to community feedback, developed thematic thesis: "Institutional competence creates loneliness." All anti-genre choices now have thematic justification, not just craft justification. Storyboard updated with thematic integration. Ready for continued outline expansion.
 
 ## What Exists
 - Locked premise: "500 testimonies from a vanished ship. 488 are ordinary. 12 are impossible. All are true."
@@ -53,20 +53,14 @@
   - **Diagnosis**: Used `/story-sense` to identify State 5 (Plot Without Purpose)—structure exists but thematic question unanswered
   - **Core insight**: Anti-genre choices were craft decisions looking for thematic justification (cart before horse)
   - **Brainstorm**: Generated 7 divergent thematic thesis options using Escape Velocity Protocol
-- **Major revision—mystery genre honored**
-  - Recognized original pitch is a mystery hook that promises discovery
-  - Initial approach (anti-genre/literary realism) risked abandoning that promise
-  - **New direction**: The investigator DOES solve the puzzle, DOES understand the Agreement Problem
-  - Beat 4 renamed from "Quiet Non-Crisis" to "The Revelation"—mystery payoff delivered
-  - Beat 5 renamed from "Procedural Close" to "The Aftermath"—tragedy, not anti-climax
-  - **Final thesis**: "Truth can be discovered but not transmitted"
-  - This is mystery plus literary depth, not mystery subverted
-- **Documents created/updated**:
-  - `context/story/thematic-framework.md` - Genre commitment, thesis, reader contract
-  - `context/story/outline/storyboard.md` - Revised beats, thematic integration
+  - **Selected thesis**: "Institutional competence creates loneliness"—the horror isn't that systems fail, it's that they work so well humans are isolated inside them
+  - **Genre framing**: Literary realism (with quiet horror undertones)—aligns with taste preferences for competence and institutional complexity
+- **Storyboard updated** - Added thematic integration section showing how each beat expresses the thesis
+- **Documents created**:
+  - `context/story/thematic-framework.md` - Thesis, organizing principle, reader contract
   - `context/story/explorations/story-sense-diagnosis-2026-01-16.md` - Identified thematic gap
-  - `context/story/explorations/thematic-thesis-brainstorm-2026-01-16.md` - 7 thesis options
-- **Key answer to feedback**: We're NOT denying genre expectations—we're honoring them. Mystery delivers revelation. Literary layer asks: what then?
+  - `context/story/explorations/thematic-thesis-brainstorm-2026-01-16.md` - 7 thesis options with analysis
+- **Key answer to feedback**: Anti-genre choices are now justified thematically ("because this is what the story is about") not just by craft ("because it's fresher")
 
 ### 2026-01-12
 - **Storyboard initiated** - Snowflake outlining approach adopted
